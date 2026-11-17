@@ -123,7 +123,12 @@ val startSerier = listOf(
         "A Discovery of Witches",
         2018,
         "Fantasy, romantik, drama",
-        bild = R.drawable.a_discovery_of_witches)
+        bild = R.drawable.a_discovery_of_witches),
+    TvSerie(7,
+        "Stargate SG-1",
+        1997,
+        "Science fiction, action, äventyr",
+        bild = R.drawable.stargate_sg1)
 )
 
 /*

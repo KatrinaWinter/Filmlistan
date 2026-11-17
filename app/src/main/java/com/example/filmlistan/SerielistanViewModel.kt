@@ -30,7 +30,7 @@ class SerielistanViewModel : ViewModel() {
         private set
 
     // Keeps track of the next available ID for a newly added series.
-    private var nextId = 7
+    private var nextId = 8
 
     //Updates the title entered by the user.
     fun onNewTitleChange(text: String) {
