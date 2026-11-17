@@ -4,6 +4,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
+import android.util.Log
 
 /**
  * Represents the current UI state of the series list.
@@ -42,7 +43,9 @@ class SerielistanViewModel : ViewModel() {
      * Resets the input field after adding the series.
      */
     fun addSerie() {
+        Log.d("SerieViewModel", "Lägger till TV-serie i listan")
         val title = uiState.nyTitel.trim()
+
 
         // Stop if the title is empty.
         if (title.isEmpty()) return
